@@ -1,0 +1,41 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+alembic = "*"
+certipy = ">=0.1.2"
+entrypoints = "*"
+oauthlib = ">=3.0"
+pamela = "*"
+python-dateutil = "*"
+requests = "*"
+tornado = ">=5.0"
+traitlets = ">=4.3.2"
+attrs = ">=17.4.0"
+beautifulsoup4 = "*"
+codecov = "*"
+coverage = "*"
+cryptography = "*"
+html5lib = "*"
+mock = "*"
+notebook = "*"
+pre-commit = "*"
+pytest-asyncio = "*"
+pytest-cov = "*"
+pytest = ">=3.3"
+requests-mock = "*"
+virtualenv = "*"
+async_generator = ">=1.8"
+Jinja2 = "*"
+prometheus_client = ">=0.0.21"
+SQLAlchemy = ">=1.1"
+jupyterhub = {editable = true,path = "."}
+jupyterhub-simplespawner = "*"
+pip = "*"
+
+[requires]
+python_version = "3.7"
